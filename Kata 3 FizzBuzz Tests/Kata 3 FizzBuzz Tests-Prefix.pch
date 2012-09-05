@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Kata 3 FizzBuzz Tests' target in the 'Kata 3 FizzBuzz Tests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

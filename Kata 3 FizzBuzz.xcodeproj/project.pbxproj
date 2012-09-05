@@ -10,6 +10,12 @@
 		ECB17EAB15F7FD4700300126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB17EAA15F7FD4700300126 /* Foundation.framework */; };
 		ECB17EAE15F7FD4700300126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB17EAD15F7FD4700300126 /* main.m */; };
 		ECB17EB215F7FD4700300126 /* Kata_3_FizzBuzz.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECB17EB115F7FD4700300126 /* Kata_3_FizzBuzz.1 */; };
+		ECB17EC015F7FEA700300126 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB17EBF15F7FEA700300126 /* SenTestingKit.framework */; };
+		ECB17EC215F7FEA700300126 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB17EC115F7FEA700300126 /* Cocoa.framework */; };
+		ECB17ECC15F7FEA700300126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB17ECA15F7FEA700300126 /* InfoPlist.strings */; };
+		ECB17ED615F7FF1500300126 /* BDFizzBuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB17ED515F7FF1500300126 /* BDFizzBuzzTests.m */; };
+		ECB17ED915F7FF9200300126 /* BDFizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB17ED815F7FF9200300126 /* BDFizzBuzz.m */; };
+		ECB17EDA15F7FF9200300126 /* BDFizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB17ED815F7FF9200300126 /* BDFizzBuzz.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +38,19 @@
 		ECB17EB015F7FD4700300126 /* Kata 3 FizzBuzz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kata 3 FizzBuzz-Prefix.pch"; sourceTree = "<group>"; };
 		ECB17EB115F7FD4700300126 /* Kata_3_FizzBuzz.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Kata_3_FizzBuzz.1; sourceTree = "<group>"; };
 		ECB17EB815F7FD6B00300126 /* Requirements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Requirements; sourceTree = "<group>"; };
+		ECB17EBE15F7FEA700300126 /* Kata 3 FizzBuzz Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kata 3 FizzBuzz Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB17EBF15F7FEA700300126 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECB17EC115F7FEA700300126 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		ECB17EC415F7FEA700300126 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ECB17EC515F7FEA700300126 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECB17EC615F7FEA700300126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECB17EC915F7FEA700300126 /* Kata 3 FizzBuzz Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kata 3 FizzBuzz Tests-Info.plist"; sourceTree = "<group>"; };
+		ECB17ECB15F7FEA700300126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB17ED015F7FEA700300126 /* Kata 3 FizzBuzz Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kata 3 FizzBuzz Tests-Prefix.pch"; sourceTree = "<group>"; };
+		ECB17ED415F7FF1500300126 /* BDFizzBuzzTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDFizzBuzzTests.h; sourceTree = "<group>"; };
+		ECB17ED515F7FF1500300126 /* BDFizzBuzzTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDFizzBuzzTests.m; sourceTree = "<group>"; };
+		ECB17ED715F7FF9200300126 /* BDFizzBuzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDFizzBuzz.h; sourceTree = "<group>"; };
+		ECB17ED815F7FF9200300126 /* BDFizzBuzz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDFizzBuzz.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECB17EBA15F7FEA700300126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB17EC015F7FEA700300126 /* SenTestingKit.framework in Frameworks */,
+				ECB17EC215F7FEA700300126 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +79,7 @@
 			children = (
 				ECB17EB815F7FD6B00300126 /* Requirements */,
 				ECB17EAC15F7FD4700300126 /* Kata 3 FizzBuzz */,
+				ECB17EC715F7FEA700300126 /* Kata 3 FizzBuzz Tests */,
 				ECB17EA915F7FD4700300126 /* Frameworks */,
 				ECB17EA715F7FD4700300126 /* Products */,
 			);
@@ -60,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				ECB17EA615F7FD4700300126 /* Kata 3 FizzBuzz */,
+				ECB17EBE15F7FEA700300126 /* Kata 3 FizzBuzz Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				ECB17EAA15F7FD4700300126 /* Foundation.framework */,
+				ECB17EBF15F7FEA700300126 /* SenTestingKit.framework */,
+				ECB17EC115F7FEA700300126 /* Cocoa.framework */,
+				ECB17EC315F7FEA700300126 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +111,8 @@
 				ECB17EAD15F7FD4700300126 /* main.m */,
 				ECB17EB115F7FD4700300126 /* Kata_3_FizzBuzz.1 */,
 				ECB17EAF15F7FD4700300126 /* Supporting Files */,
+				ECB17ED715F7FF9200300126 /* BDFizzBuzz.h */,
+				ECB17ED815F7FF9200300126 /* BDFizzBuzz.m */,
 			);
 			path = "Kata 3 FizzBuzz";
 			sourceTree = "<group>";
@@ -86,6 +121,36 @@
 			isa = PBXGroup;
 			children = (
 				ECB17EB015F7FD4700300126 /* Kata 3 FizzBuzz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB17EC315F7FEA700300126 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB17EC415F7FEA700300126 /* AppKit.framework */,
+				ECB17EC515F7FEA700300126 /* CoreData.framework */,
+				ECB17EC615F7FEA700300126 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ECB17EC715F7FEA700300126 /* Kata 3 FizzBuzz Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB17ED415F7FF1500300126 /* BDFizzBuzzTests.h */,
+				ECB17ED515F7FF1500300126 /* BDFizzBuzzTests.m */,
+				ECB17EC815F7FEA700300126 /* Supporting Files */,
+			);
+			path = "Kata 3 FizzBuzz Tests";
+			sourceTree = "<group>";
+		};
+		ECB17EC815F7FEA700300126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB17EC915F7FEA700300126 /* Kata 3 FizzBuzz Tests-Info.plist */,
+				ECB17ECA15F7FEA700300126 /* InfoPlist.strings */,
+				ECB17ED015F7FEA700300126 /* Kata 3 FizzBuzz Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +175,24 @@
 			productReference = ECB17EA615F7FD4700300126 /* Kata 3 FizzBuzz */;
 			productType = "com.apple.product-type.tool";
 		};
+		ECB17EBD15F7FEA700300126 /* Kata 3 FizzBuzz Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB17ED115F7FEA700300126 /* Build configuration list for PBXNativeTarget "Kata 3 FizzBuzz Tests" */;
+			buildPhases = (
+				ECB17EB915F7FEA700300126 /* Sources */,
+				ECB17EBA15F7FEA700300126 /* Frameworks */,
+				ECB17EBB15F7FEA700300126 /* Resources */,
+				ECB17EBC15F7FEA700300126 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kata 3 FizzBuzz Tests";
+			productName = "Kata 3 FizzBuzz Tests";
+			productReference = ECB17EBE15F7FEA700300126 /* Kata 3 FizzBuzz Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -132,9 +215,37 @@
 			projectRoot = "";
 			targets = (
 				ECB17EA515F7FD4700300126 /* Kata 3 FizzBuzz */,
+				ECB17EBD15F7FEA700300126 /* Kata 3 FizzBuzz Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB17EBB15F7FEA700300126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB17ECC15F7FEA700300126 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECB17EBC15F7FEA700300126 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECB17EA215F7FD4700300126 /* Sources */ = {
@@ -142,10 +253,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB17EAE15F7FD4700300126 /* main.m in Sources */,
+				ECB17ED915F7FF9200300126 /* BDFizzBuzz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB17EB915F7FEA700300126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB17ED615F7FF1500300126 /* BDFizzBuzzTests.m in Sources */,
+				ECB17EDA15F7FF9200300126 /* BDFizzBuzz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECB17ECA15F7FEA700300126 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB17ECB15F7FEA700300126 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ECB17EB315F7FD4700300126 /* Debug */ = {
@@ -215,6 +347,32 @@
 			};
 			name = Release;
 		};
+		ECB17ED215F7FEA700300126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kata 3 FizzBuzz Tests/Kata 3 FizzBuzz Tests-Prefix.pch";
+				INFOPLIST_FILE = "Kata 3 FizzBuzz Tests/Kata 3 FizzBuzz Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ECB17ED315F7FEA700300126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kata 3 FizzBuzz Tests/Kata 3 FizzBuzz Tests-Prefix.pch";
+				INFOPLIST_FILE = "Kata 3 FizzBuzz Tests/Kata 3 FizzBuzz Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -232,6 +390,14 @@
 			buildConfigurations = (
 				ECB17EB615F7FD4700300126 /* Debug */,
 				ECB17EB715F7FD4700300126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB17ED115F7FEA700300126 /* Build configuration list for PBXNativeTarget "Kata 3 FizzBuzz Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB17ED215F7FEA700300126 /* Debug */,
+				ECB17ED315F7FEA700300126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

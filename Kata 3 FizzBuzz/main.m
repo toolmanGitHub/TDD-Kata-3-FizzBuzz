@@ -7,15 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BDFizzBuzz.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        BDFizzBuzz *fizzBuzz=[[BDFizzBuzz alloc] init];
+        NSArray *fizzBuzzNumbers=fizzBuzz.fizzBuzzNumbers;
+        [fizzBuzzNumbers enumerateObjectsUsingBlock:^(NSString *theString, NSUInteger idx, BOOL *stop) {
+            NSLog(@"%@",theString);
+        }];
     }
     return 0;
 }
