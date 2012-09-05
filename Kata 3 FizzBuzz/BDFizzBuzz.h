@@ -17,4 +17,6 @@
 -(BOOL)isDivisibleByThree:(NSInteger)value;
 -(BOOL)isDivisibleByFive:(NSInteger)value;
 
+-(NSString *)fizzBuzzStringForNumber:(NSInteger)number;
+
 @end
