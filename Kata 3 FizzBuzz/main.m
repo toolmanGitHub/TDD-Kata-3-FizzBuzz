@@ -14,10 +14,7 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         BDFizzBuzz *fizzBuzz=[[BDFizzBuzz alloc] init];
-        NSArray *fizzBuzzNumbers=fizzBuzz.fizzBuzzNumbers;
-        [fizzBuzzNumbers enumerateObjectsUsingBlock:^(NSString *theString, NSUInteger idx, BOOL *stop) {
-            NSLog(@"%@",theString);
-        }];
+        [fizzBuzz printOneToOneHundred];
     }
     return 0;
 }
