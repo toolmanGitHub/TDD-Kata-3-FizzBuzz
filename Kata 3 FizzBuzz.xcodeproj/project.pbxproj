@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB17EAB15F7FD4700300126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB17EAA15F7FD4700300126 /* Foundation.framework */; };
+		ECB17EAE15F7FD4700300126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB17EAD15F7FD4700300126 /* main.m */; };
+		ECB17EB215F7FD4700300126 /* Kata_3_FizzBuzz.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECB17EB115F7FD4700300126 /* Kata_3_FizzBuzz.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECB17EA415F7FD4700300126 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				ECB17EB215F7FD4700300126 /* Kata_3_FizzBuzz.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECB17EA615F7FD4700300126 /* Kata 3 FizzBuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kata 3 FizzBuzz"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB17EAA15F7FD4700300126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECB17EAD15F7FD4700300126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB17EB015F7FD4700300126 /* Kata 3 FizzBuzz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kata 3 FizzBuzz-Prefix.pch"; sourceTree = "<group>"; };
+		ECB17EB115F7FD4700300126 /* Kata_3_FizzBuzz.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Kata_3_FizzBuzz.1; sourceTree = "<group>"; };
+		ECB17EB815F7FD6B00300126 /* Requirements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Requirements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB17EA315F7FD4700300126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB17EAB15F7FD4700300126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB17E9B15F7FD4700300126 = {
+			isa = PBXGroup;
+			children = (
+				ECB17EB815F7FD6B00300126 /* Requirements */,
+				ECB17EAC15F7FD4700300126 /* Kata 3 FizzBuzz */,
+				ECB17EA915F7FD4700300126 /* Frameworks */,
+				ECB17EA715F7FD4700300126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB17EA715F7FD4700300126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB17EA615F7FD4700300126 /* Kata 3 FizzBuzz */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB17EA915F7FD4700300126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB17EAA15F7FD4700300126 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB17EAC15F7FD4700300126 /* Kata 3 FizzBuzz */ = {
+			isa = PBXGroup;
+			children = (
+				ECB17EAD15F7FD4700300126 /* main.m */,
+				ECB17EB115F7FD4700300126 /* Kata_3_FizzBuzz.1 */,
+				ECB17EAF15F7FD4700300126 /* Supporting Files */,
+			);
+			path = "Kata 3 FizzBuzz";
+			sourceTree = "<group>";
+		};
+		ECB17EAF15F7FD4700300126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB17EB015F7FD4700300126 /* Kata 3 FizzBuzz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB17EA515F7FD4700300126 /* Kata 3 FizzBuzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB17EB515F7FD4700300126 /* Build configuration list for PBXNativeTarget "Kata 3 FizzBuzz" */;
+			buildPhases = (
+				ECB17EA215F7FD4700300126 /* Sources */,
+				ECB17EA315F7FD4700300126 /* Frameworks */,
+				ECB17EA415F7FD4700300126 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kata 3 FizzBuzz";
+			productName = "Kata 3 FizzBuzz";
+			productReference = ECB17EA615F7FD4700300126 /* Kata 3 FizzBuzz */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB17E9D15F7FD4700300126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tim Taylor";
+			};
+			buildConfigurationList = ECB17EA015F7FD4700300126 /* Build configuration list for PBXProject "Kata 3 FizzBuzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECB17E9B15F7FD4700300126;
+			productRefGroup = ECB17EA715F7FD4700300126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB17EA515F7FD4700300126 /* Kata 3 FizzBuzz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB17EA215F7FD4700300126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB17EAE15F7FD4700300126 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECB17EB315F7FD4700300126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECB17EB415F7FD4700300126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECB17EB615F7FD4700300126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kata 3 FizzBuzz/Kata 3 FizzBuzz-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECB17EB715F7FD4700300126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kata 3 FizzBuzz/Kata 3 FizzBuzz-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB17EA015F7FD4700300126 /* Build configuration list for PBXProject "Kata 3 FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB17EB315F7FD4700300126 /* Debug */,
+				ECB17EB415F7FD4700300126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB17EB515F7FD4700300126 /* Build configuration list for PBXNativeTarget "Kata 3 FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB17EB615F7FD4700300126 /* Debug */,
+				ECB17EB715F7FD4700300126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB17E9D15F7FD4700300126 /* Project object */;
+}

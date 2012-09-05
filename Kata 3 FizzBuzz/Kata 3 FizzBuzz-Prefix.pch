@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Kata 3 FizzBuzz' target in the 'Kata 3 FizzBuzz' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
